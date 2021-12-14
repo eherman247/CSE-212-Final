@@ -1,0 +1,10 @@
+myStack.pop()
+myStack.pop()
+myStack.pop()
+myStack.pop()
+mystack.append(weather)
+myStack.append(roads)
+myStack.append(lights)
+myStack.append(traffic)
+myStack.append(accidents)
+

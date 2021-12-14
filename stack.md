@@ -1,5 +1,7 @@
 # Stack
 
+[Back to welcome](welcome.md)
+
 <!-- Notes for later
 USE LESS WORDS!
 Include more examples
@@ -30,15 +32,9 @@ will use push for each person and that person will be added to the back of the s
 * Pop: Pop is used to remove the last item of the stack and use it. The last item of the
 stack is removed and the size is decreased by one.
 
+![Stack](./pictures/stack.png)
+
 ## Example
-<!-- Put yourself as the person in this scenario. One day, you are coding new software for
-your company. You have imported many different libraries into your code and everything
-is going well. However just a few days before your deadline, your software is failing.
-Your current debugger mentions a function from an imported library, but does not tell
-you which one. A simple method you could do is go though your thousands of lines of code
-and try to find the problem, or you could put them in order into a stack. The stack 
-itself won't break you program and by going through the stack it can tell you exactly 
-where the error is occuring. -->
 
 As your tech company has expanded, you have decided that a single server isn't enough
 to take care of your companies many needs. To solve this problem you have implemented
@@ -67,13 +63,5 @@ basemap but cant change the current code. What would the code look like to imple
 change? (Don't think too hard about this. Just use a series of pops and appends, and don't
 forget to add back onto the stack everything that was just taken off.)
 
-<!-- myStack.pop()
-myStack.pop()
-myStack.pop()
-myStack.pop()
-mystack.append(weather)
-myStack.append(roads)
-myStack.append(lights)
-myStack.append(traffic)
-myStack.append(accidents) -->
 
+[solution](stack.py)
